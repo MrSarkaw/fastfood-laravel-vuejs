@@ -1,0 +1,19 @@
+html , body{
+    height: 100%;
+    direction: rtl !important;
+    font-family: 'NRT';
+}
+@font-face{
+    font-family: "NRT";
+    src: url('../fonts//NRT-Reg.ttf');
+}
+
+.datas::-webkit-scrollbar{
+    width: 5px;
+}
+.datas::-webkit-scrollbar-thumb{
+    width: 100%;
+    background: #2d3748;
+
+}
+
